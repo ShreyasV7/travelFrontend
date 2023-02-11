@@ -1,0 +1,49 @@
+.homeGuest {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+
+}
+
+.homeGuestItem {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.homeGuestImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.homeGuestName {
+    font-weight: bolder;
+}
+
+.homeGuestCity {
+    font-weight: normal;
+}
+
+.homeGuestPrice {
+    font-weight: bold;
+}
+
+.homeGuestRating>button {
+    background-color: rgb(59, 50, 117);
+    border: none;
+    padding: 5px;
+    color: whitesmoke;
+    margin-right: 15px;
+    font-weight: bold;
+
+}
+
+.homeGuestRating>span {
+    font-size: 14px;
+}

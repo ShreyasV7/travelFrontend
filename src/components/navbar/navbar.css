@@ -1,0 +1,36 @@
+.navbar {
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: #0071c2;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.navButton {
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: 500;
+}
+
+.navButton:hover {
+    background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%);
+
+    color: whitesmoke;
+    border-radius: 5px;
+}
